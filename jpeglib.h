@@ -987,7 +987,7 @@ EXTERN(void) jpeg_mem_dest JPP((j_compress_ptr cinfo,
 			       unsigned char ** outbuffer,
 			       unsigned long * outsize));
 EXTERN(void) jpeg_mem_src JPP((j_decompress_ptr cinfo,
-			      const unsigned char * inbuffer,
+			      unsigned char * inbuffer,
 			      unsigned long insize));
 
 /* Default parameter setup for compression */
